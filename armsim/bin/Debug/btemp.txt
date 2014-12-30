@@ -1,0 +1,37 @@
+
+btest.exe:     file format elf32-littlearm
+
+
+Disassembly of section .text:
+
+00001000 <_start>:
+    1000:	e3a01efb 	mov	r1, #4016	; 0xfb0
+    1004:	e3a02a05 	mov	r2, #20480	; 0x5000
+    1008:	e3a03a03 	mov	r3, #12288	; 0x3000
+    100c:	e3a04008 	mov	r4, #8
+    1010:	e5821000 	str	r1, [r2]
+    1014:	e5021004 	str	r1, [r2, #-4]
+    1018:	e7021004 	str	r1, [r2, -r4]
+    101c:	e7821004 	str	r1, [r2, r4]
+    1020:	e78210c4 	str	r1, [r2, r4, asr #1]
+    1024:	e7821104 	str	r1, [r2, r4, lsl #2]
+    1028:	e5c2100c 	strb	r1, [r2, #12]
+    102c:	e5925000 	ldr	r5, [r2]
+    1030:	e5126004 	ldr	r6, [r2, #-4]
+    1034:	e7127004 	ldr	r7, [r2, -r4]
+    1038:	e7928004 	ldr	r8, [r2, r4]
+    103c:	e79290c4 	ldr	r9, [r2, r4, asr #1]
+    1040:	e792a104 	ldr	sl, [r2, r4, lsl #2]
+    1044:	e5d2b00c 	ldrb	fp, [r2, #12]
+    1048:	e3a01001 	mov	r1, #1
+    104c:	e3a02002 	mov	r2, #2
+    1050:	e3a04004 	mov	r4, #4
+    1054:	e92d0016 	push	{r1, r2, r4}
+    1058:	e3a0100a 	mov	r1, #10
+    105c:	e3a0301e 	mov	r3, #30
+    1060:	e92d000a 	push	{r1, r3}
+    1064:	e3a01000 	mov	r1, #0
+    1068:	e3a03000 	mov	r3, #0
+    106c:	e8bd000a 	pop	{r1, r3}
+    1070:	e89d0016 	ldm	sp, {r1, r2, r4}
+    1074:	ef000011 	svc	0x00000011

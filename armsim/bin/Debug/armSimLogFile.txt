@@ -1,0 +1,219 @@
+ERROR in CPU.decode(): Type is Special or Non-valid instruction.
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+ERROR in CPU.decode(): Type is Special or Non-valid instruction.
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+ERROR in CPU.decode(): Type is Special or Non-valid instruction.
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+ERROR in CPU.decode(): Type is Special or Non-valid instruction.
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+SWI in CPU.decode(). End of instructions
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+ERROR in CPU.execute(): Type is Special or Non-valid instruction.
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+Fail: 
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+Fail: 
+Fail: 
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+Fail: 
+SWI in CPU.decode(). End of instructions
+Fail: 
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+Fail: 
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+SWI in CPU.decode(). End of instructions
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+SWI in CPU.decode(). End of instructions
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+ERROR: in Registers.getRegNValue(): this is not a valid register value (not in range 0-15).
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+Fail: 
+SWI in CPU.decode(). End of instructions
+Fail: 
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+SWI in CPU.decode(). End of instructions
+loadFileToolStripMenuItem_Click(): The process cannot access the file 'C:\Users\Raul\Google Drive\7 BJU Senior Fall\CpS 310-1\armsim\armsim\bin\Debug\trace.log' because it is being used by another process.
+loadFileToolStripMenuItem_Click(): The process cannot access the file 'C:\Users\Raul\Google Drive\7 BJU Senior Fall\CpS 310-1\armsim\armsim\bin\Debug\trace.log' because it is being used by another process.
+loadFileToolStripMenuItem_Click(): The process cannot access the file 'C:\Users\Raul\Google Drive\7 BJU Senior Fall\CpS 310-1\armsim\armsim\bin\Debug\trace.log' because it is being used by another process.
+loadFileToolStripMenuItem_Click(): The process cannot access the file 'C:\Users\Raul\Google Drive\7 BJU Senior Fall\CpS 310-1\armsim\armsim\bin\Debug\trace.log' because it is being used by another process.
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 
+Fail: 

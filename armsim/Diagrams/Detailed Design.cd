@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="MAIN">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Prototype\armsim.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Computer">
+    <Position X="12" Y="3" Width="2" />
+    <Members>
+      <Method Name="ByteArrayToStructure" Hidden="true" />
+      <Method Name="clearMemoryAndRegisters" Hidden="true" />
+      <Method Name="getControlFlagsIntArray" Hidden="true" />
+      <Method Name="getFourWordsFromMemory" Hidden="true" />
+      <Method Name="getRegisterNames" Hidden="true" />
+      <Method Name="getRegistersIntArray" Hidden="true" />
+      <Method Name="isTraceLogEnabled" Hidden="true" />
+      <Method Name="resetTraceCounterToOne" Hidden="true" />
+      <Method Name="turnOffTraceLog" Hidden="true" />
+      <Method Name="turnOnTraceLog" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>AMAAAgBBAAAwAEEgBAIGACCBBAAoQgJEA4EACIIAACQ=</HashCode>
+      <FileName>Prototype\Computer.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="memory" />
+      <Field Name="registers" />
+      <Field Name="cpu" />
+      <Field Name="debugLog" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="armsim.CPU">
+    <Position X="18.75" Y="2.5" Width="2.5" />
+    <AssociationLine Name="memory" Type="Memory">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.408" Y="0.142" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="registers" Type="Registers" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="19.584" Y="2.5" />
+        <Point X="19.584" Y="0.889" />
+        <Point X="17" Y="0.889" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AQDApAgAAAAIAEkAAAAEBACBBBoAAgBABYAABIaADAA=</HashCode>
+      <FileName>Prototype\CPU.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="memory" />
+      <Field Name="registers" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="Memory">
+    <Position X="15" Y="6.5" Width="2.25" />
+    <Members>
+      <Method Name="getFourWordsFromMemory" Hidden="true" />
+      <Method Name="GetIntBinaryString" Hidden="true" />
+    </Members>
+    <TypeIdentifier>
+      <HashCode>EBAgCAEAAAAAAAAAAAIAcAAggAAAAMAgAAAAAAAAAAA=</HashCode>
+      <FileName>Prototype\Memory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registers">
+    <Position X="15" Y="0.5" Width="2" />
+    <Members>
+      <Method Name="getControlFlagsIntArray" Hidden="true" />
+      <Method Name="getRegistersIntArray" Hidden="true" />
+    </Members>
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>IEABkgAABEFABAAAAAAAACCAQCDDwARMIgFAgJAQECE=</HashCode>
+      <FileName>Prototype\Registers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TraceLog">
+    <Position X="9" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAgAAAYEAACAAAQABBAAAAgAAAIgAAAAAAAA=</HashCode>
+      <FileName>Helper Classes\Logs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DebugLog">
+    <Position X="9.5" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAIgACAAAAAA=</HashCode>
+      <FileName>Helper Classes\Logs.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.Branch">
+    <Position X="24" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAEABAAAAAAAEAAAAACQAAAAYBADA=</HashCode>
+      <FileName>Simulator II\Branch.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.DataProcessing">
+    <Position X="26.25" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IIAAFAEAJAQAJIAAFEAAAAAACAhIQAAAiQAAAAKBBBA=</HashCode>
+      <FileName>Simulator I\DataProcessing.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.LoadAndStore">
+    <Position X="21.5" Y="0.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAAAIIAQAEAAAAAAAAAAABIAAOQEAACfLpRA=</HashCode>
+      <FileName>Simulator I\LoadAndStore.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.Immediate">
+    <Position X="29" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAQEAAAQAAAAEAAAAAAAAAAIAAAACQAAAAIAAAA=</HashCode>
+      <FileName>Simulator I\Operand2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.RegAndImmShReg">
+    <Position X="34" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAYAAAgACIABEIAABAAAAgAACAIgCQCAAAJAAAA=</HashCode>
+      <FileName>Simulator I\Operand2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.BarrelShifter">
+    <Position X="31.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAEIAAAAAAAA=</HashCode>
+      <FileName>Simulator I\BarrelShifter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.Subject">
+    <Position X="9" Y="0.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAGBAAIAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>Observer\Observer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.RegShReg">
+    <Position X="31.5" Y="2.5" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAABIAAAAACAAAEAAAAAAAAAgABAAACQAAAAIEAAA=</HashCode>
+      <FileName>Simulator I\Operand2.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.Mul">
+    <Position X="24.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAIAAAAAAAAAEAAAIAAAAAgAAAAACQAAAAKBABE=</HashCode>
+      <FileName>Simulator I\Mul.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.TestDecodeExecuteSimI">
+    <Position X="31.25" Y="7.75" Width="4.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAA=</HashCode>
+      <FileName>Unit Tests\TestDecodeExecuteSimI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.TestDecodeExecuteSimII">
+    <Position X="36" Y="7.75" Width="4" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAIAAAAAAAAAAAAAAAAAAAAAACAAAEAAACAAA=</HashCode>
+      <FileName>Unit Tests\TestDecodeExecuteSimII.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="armsim.Extras">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQBAAAAQAAAAAACAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>Simulator II\Extras.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

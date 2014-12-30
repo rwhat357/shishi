@@ -1,0 +1,209 @@
+commit 1bf6f291ddc5a594fea7b2f66befb4714f95dc89
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Nov 23 23:11:44 2014 -0500
+
+    C version 100% done.
+
+commit d091a8ea7606e1423eb6fd294a1125c635ae8527
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Nov 23 19:51:02 2014 -0500
+
+    C version completed with disassembly panel that is slow (3hrs).
+
+commit 0564a5dfc12e5576b95128e562b38f0f2e54206f
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Nov 23 16:34:28 2014 -0500
+
+    Simulator I C Versions done with a couple of bugs (6 hrs):
+    
+     - disassembly panel loads slow
+     - mem rows display 0xffffffff (only at those instruction addreses)when the mem address requested is greater than the memory size
+
+commit 5b1228c54f1318a8fc60a5633ff9fed3751e440d
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sat Nov 22 01:00:31 2014 -0500
+
+    Half way queue I/0 implemented (2 hrs).
+
+commit 6c440629caaa70439259bea5aee79af4f308940e
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Nov 21 21:34:40 2014 -0500
+
+    Implemented STMIA (5 hrs). pointers.log test passed. Sim core done, except for display panels that I need to fix like NOPS.
+
+commit a0b96148d87de8a3e7d57d271e85231abd7eda9c
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Nov 21 14:53:15 2014 -0500
+
+    Created Extras class and helper methods (1hr).
+
+commit 1a1ba8ad888f5a1118b5dcb4ff83ad067ae181c8
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Nov 21 14:08:10 2014 -0500
+
+    Pointers.exe working until pointers.log line 000023 00001058.
+
+commit 5db3e967026086d374e46c9321615dc06c81ebf7
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Nov 21 12:37:59 2014 -0500
+
+    branch.log works!
+
+commit ae91313e33bb737497ae5a1a306bf3bbb32a6f02
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Nov 21 12:31:30 2014 -0500
+
+    Fixed one bug  in branch.log. Now fixing trace count 71 (2hrs).
+
+commit aea990eb002d5621f241079a2141b918d09409c7
+Author: Fredy <rwhat357@gmail.com>
+Date:   Thu Nov 20 22:45:50 2014 -0500
+
+    Implemented stdmia. Debugged branch and stdmia. Debugged pointers.exe instructions (15 hrs).
+
+commit 2578d4a943b38d0f571255424763c358787ee2fb
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sat Nov 15 02:08:32 2014 -0500
+
+    Trace log bug fixed (2 hrs).
+
+commit c28a2572b4cbf691543d567785439b7bc23eb0bf
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Nov 14 19:17:06 2014 -0500
+
+    Implemented ldr, str, ldmfd, stmfd. Tested c and b tracelog. Both match with my trace log (15 hrs). Need to work on bugs and making code smaller.
+
+commit 43aba088eced3a424472a983cd5cff000edb1608
+Author: Fredy <rwhat357@gmail.com>
+Date:   Tue Nov 11 23:15:42 2014 -0500
+
+    Worked on decoding ldr and str (1hr).
+
+commit 659650edbfdf75e88c66db7eceb30dc5b0fd1135
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sat Nov 8 12:39:10 2014 -0500
+
+    Fixed traceLog except for the last 3 lines (1 hr).
+
+commit fc5d73e2ec7bd1e55b4345d9a1116a077b0dc3a0
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Nov 2 01:42:53 2014 -0400
+
+    Fixed trace: correct hex digest and pc (2 hrs).
+
+commit 30c8a11f8f44be4499bcbbf32ec1fd24eacc1458
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Oct 31 18:00:25 2014 -0400
+
+    Implemented ADD
+
+commit beb671737a407d0fdd1bd3052e210fbe3bc52091
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Oct 31 01:44:58 2014 -0400
+
+    Woking on ADD
+
+commit 29c22d0ddb8c5fc53308f861fcdef3b194a7b272
+Author: Fredy <rwhat357@gmail.com>
+Date:   Wed Oct 29 21:09:32 2014 -0400
+
+    MOV instruction for Detailed Design Completed (12 hours).
+
+commit dd24206be10646f40508ba7d80a71afe58c6c3ff
+Author: Fredy <rwhat357@gmail.com>
+Date:   Mon Oct 20 23:15:22 2014 -0400
+
+    Fixed detailed design (1hour). Ready to start simulator I coding.
+
+commit 2fee8a25206138eb236f89bb5e21a9c4e37b140b
+Author: Fredy <rwhat357@gmail.com>
+Date:   Thu Oct 2 00:33:21 2014 -0400
+
+    Did some house keeping. Removed  unnecessary headers and space. Organized classes into folders. 1 hour
+
+commit 25eb31ddafc3f989c502e71d0c00a8cee6c34fa7
+Author: Fredy <rwhat357@gmail.com>
+Date:   Tue Sep 30 23:16:25 2014 -0400
+
+    Prototype 100 done.
+    
+    // to fix
+    reset run turn on bug on file on tracelog file
+
+commit 52548e953d32a3185db7f8f65c32cfc18eead29e
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Sep 28 23:57:27 2014 -0400
+
+    Prototype done, except for test classes for Computer, CPU, and Registers.
+
+commit 66556ed70f25c5b0e1aaf668ed063b745b0903ee
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Sep 28 22:07:56 2014 -0400
+
+    "A" version almost done. Missing final touches like displaying numbers in panels.
+
+commit 88dd86810a192f58139874d2fe89f81fad07fca8
+Author: Fredy <rwhat357@gmail.com>
+Date:   Fri Sep 26 17:21:46 2014 -0400
+
+    changing uints to ints
+
+commit 82dfb6328ac0304d1b6e745b142dd1f2646e72a1
+Author: Fredy <rwhat357@gmail.com>
+Date:   Tue Sep 23 19:51:18 2014 -0400
+
+    built classes cpu, memory, cpu, computer
+
+commit 853c9a409935728d9848da39d333665cf2ed5552
+Author: Fredy <rwhat357@gmail.com>
+Date:   Mon Sep 22 18:03:35 2014 -0400
+
+    created arm simulator form
+
+commit 64661ff68063ac575a5c8b13dba8bea63af177d1
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sun Sep 21 15:50:55 2014 -0400
+
+    loader project done 100%
+
+commit 4ed3744a41e1f771bb634f423a0b27609f647f7e
+Author: Fredy <rwhat357@gmail.com>
+Date:   Thu Sep 18 23:02:19 2014 -0400
+
+    MD5 Hash, Debug log, Clean Console (except with --tests) done
+
+commit 40594790c9636fc6a3b8d7afcd489ec46021de70
+Author: Fredy <rwhat357@gmail.com>
+Date:   Thu Sep 18 19:09:35 2014 -0400
+
+    Produces correct hex digests.
+
+commit b2fa3d3185812b0caac844f67d000515b987df59
+Author: Fredy <rwhat357@gmail.com>
+Date:   Wed Sep 17 23:02:45 2014 -0400
+
+    Computed md5 hex digest. But I am getting the wrong results.
+
+commit 87cda4c3adbfaf64c6704cdf8f838ec65af83e29
+Author: Fredy <rwhat357@gmail.com>
+Date:   Wed Sep 17 22:42:08 2014 -0400
+
+    Implemented PHE struct. Loaded segments to RAM.
+
+commit 5377e4a5811521519a983ee05aea53ba01abe3fc
+Author: Fredy <rwhat357@gmail.com>
+Date:   Tue Sep 16 18:23:15 2014 -0400
+
+    Reads ELF with my method. Saw class example. Recreating a new version of armsim.exe
+
+commit 093e5ad74124972ae110611da470a75dbf0f3583
+Author: Fredy <rwhat357@gmail.com>
+Date:   Sat Sep 13 22:50:39 2014 -0400
+
+    Implemented RAMSim and ELFHeader classes.
+
+commit e3ca25e962523ccea0dc1006aa2f182ed9954fa4
+Author: Fredy <rwhat357@gmail.com>
+Date:   Thu Sep 11 22:53:38 2014 -0400
+
+    armsim with referenced ELFSharp and NDesk.Options DLLs
